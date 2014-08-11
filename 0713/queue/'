@@ -1,0 +1,9 @@
+#include "classqueue.h"
+
+void destory()
+{
+    while(is_empty())
+    {
+         pop();
+    }
+}
